@@ -1,0 +1,13 @@
+.advt {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 60vh;
+  width: 20vw;
+  margin: 5px 18px;
+}
+
+.font_size {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 68%;
+}

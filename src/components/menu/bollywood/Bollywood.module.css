@@ -1,0 +1,117 @@
+.outer_box {
+  border: 5px solid #4f0096;
+  border-radius: 5px;
+  height: 90vh;
+  margin-left: 0px;
+}
+.inner_box {
+  border: 5px solid green;
+  border-radius: 5px;
+  height: 90vh;
+  width: 40vw;
+}
+.container_boxs {
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.role {
+  font-size: 30px;
+  text-align: start;
+  font-weight: 700;
+}
+.underline {
+  border: 2px solid orange;
+  width: 70px;
+  background-color: orange;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.card {
+  border: 0px solid blue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+
+  margin: 10px;
+}
+
+.img_url_style:hover {
+  transform: scale(1.02);
+}
+.items {
+  border: 0px solid rgb(31, 31, 2);
+  border-radius: 5px;
+
+  height: 20vh;
+  width: 15vw;
+
+  box-shadow: 3px 1px 11px gray;
+}
+.img_url_style {
+  border: 0px solid magenta;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+
+  height: 20vh;
+  width: 15vw;
+
+  margin-right: 25px;
+}
+a {
+  text-decoration: none;
+}
+.hr {
+  display: inline-block;
+  width: 43vw;
+}
+.title {
+  text-align: start;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+
+.context {
+  text-align: start;
+  color: gray;
+  margin-top: 10px;
+}
+.date {
+  text-align: start;
+
+  margin-top: 30px;
+  color: gray;
+}
+.travel {
+  color: black;
+}
+
+@media screen and (max-width: 960px) {
+  .hr {
+    width: 100%;
+  }
+  .items,
+  .img_url_style {
+    margin: 10px 0px;
+    height: 120px;
+    width: 95px;
+    margin-right: 10px;
+    margin-left: 2px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .context {
+    margin-top: 5px;
+
+    font-size: 15px;
+    overflow: hidden;
+    max-height: 5ch;
+  }
+  .date {
+    font-size: 14px;
+    margin-top: 13px;
+  }
+}

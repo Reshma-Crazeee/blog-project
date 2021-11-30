@@ -1,0 +1,206 @@
+.title_name {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.profile {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin-left: 14px;
+  background-image: url("../../images/man.png");
+  background-position: center;
+  background-size: cover;
+}
+.select_box {
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+}
+.auth_name {
+  margin-top: 30px;
+  text-align: start;
+  margin-left: 30px;
+}
+.date {
+  text-align: start;
+  margin-left: 30px;
+  color: gray;
+  padding-top: 10px;
+}
+.socialApps {
+  border-radius: 5px;
+  height: auto;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 120px;
+  color: gray;
+  font-size: 28px;
+}
+.fab {
+  margin-left: 20px;
+}
+
+/* footer */
+
+.footer_end {
+  border-radius: 5px;
+  background-color: white;
+  height: 39vh;
+  width: 42vw;
+}
+.image_claps {
+  background-image: url("../../images/clap.png");
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  margin-left: 25px;
+}
+
+.line,
+.line1 {
+  display: inline-block;
+  width: 42vw;
+}
+.space {
+  padding-top: 5px;
+  margin-left: 50px;
+}
+.written {
+  color: gray;
+  text-align: start;
+  margin-left: 29px;
+}
+.fname {
+  margin-left: 29px;
+  text-align: start;
+  padding-top: 10px;
+}
+.box_footer {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.box1 {
+  border: 2px solid #ececec;
+  background-color: #ececec;
+  color: grey;
+  height: 30px;
+  width: 90px;
+  margin-left: 30px;
+}
+
+/* AppDetails */
+
+.box_AppDetails {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  height: 150vh;
+  width: 42vw;
+}
+.app_image {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-image: url("../../images/react.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 35vh;
+  width: 38vw;
+  margin: 30px;
+  margin-top: 40px;
+}
+.app_content {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: black;
+  height: 290px;
+  width: 38vw;
+  margin: 22px;
+  font-size: 18px;
+  text-align: start;
+}
+.para {
+  margin-top: 30px;
+}
+.app_img {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-image: url("../../images/code.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  width: 38vw;
+  margin: 22px 40px;
+}
+
+@media screen and (max-width: 960px) {
+  .title_name {
+    font-size: 25px;
+  }
+  .socialMedia {
+    position: relative;
+  }
+  .socialApps {
+    position: absolute;
+    top: -62px;
+    left: -137px;
+  }
+  .profile {
+    position: absolute;
+    top: 20px;
+  }
+  .select_box {
+    position: absolute;
+    top: 16px;
+
+    right: 0px;
+  }
+  .box_AppDetails {
+    margin-top: 40%;
+    width: 100%;
+    height: auto;
+  }
+  .app_image {
+    margin: 30px 0;
+    height: 180px;
+    width: 355px;
+  }
+  .app_content {
+    height: auto;
+    width: 100%;
+    margin: 22px 0px;
+  }
+  .para {
+    margin-top: 20px;
+  }
+  .app_img {
+    width: 354px;
+    height: 360px;
+    margin: 0px 0;
+  }
+  .footer_end {
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+  }
+  .box_footer {
+    margin-right: 15px;
+  }
+  .image_claps {
+    margin-bottom: 35px;
+  }
+  .line {
+    width: 100%;
+  }
+  .line1 {
+    display: none;
+  }
+}

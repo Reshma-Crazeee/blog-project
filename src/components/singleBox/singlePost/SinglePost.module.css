@@ -1,0 +1,188 @@
+.conatiner_box {
+  border: 2px solid white;
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+  background-color: whitesmoke;
+}
+.singlePost {
+  display: flex;
+
+  margin-left: 9%;
+}
+.hr__line {
+  display: inline-block;
+  width: 99vw;
+}
+
+.card {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  height: 65vh;
+  width: 24vw;
+  margin: 20px;
+  background-color: whitesmoke;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.role {
+  margin-left: 10%;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+}
+.underline {
+  margin-top: 10px;
+  border: 2px solid orange;
+  width: 10vh;
+  background-color: orange;
+  margin-bottom: 39px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.items {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  margin: 10px;
+  height: 250px;
+  width: 330px;
+  background-image: url("../../images/china.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 1px 11px gray;
+}
+.content {
+  border: 4px solid whitesmoke;
+  border-radius: 5px;
+  margin: 20px;
+  height: 20vh;
+  width: auto;
+}
+.title {
+  text-align: start;
+  padding-left: 30px;
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+}
+.image {
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 50px;
+  width: 50px;
+  background-color: lightskyblue;
+  background-image: url("../../images/uncle.png");
+  background-size: cover;
+  background-position: center;
+
+  float: left;
+}
+.more {
+  display: none;
+}
+.name {
+  color: gray;
+  text-align: start;
+  padding-left: 10px;
+}
+.date {
+  color: gray;
+  padding-right: 95px;
+}
+.travel {
+  margin-top: 30px;
+  padding-left: 80px;
+
+  text-align: start;
+  color: black;
+}
+
+/* more from siren */
+
+.more_from_siren {
+  border-radius: 5px;
+  height: auto;
+  width: 40vw;
+  margin-left: 19px;
+  display: none;
+}
+
+.more_container {
+  border-radius: 5px;
+  height: 20vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+}
+.more_content {
+  margin-top: 30px;
+  border-radius: 5px;
+  height: auto;
+  width: auto;
+  text-align: start;
+}
+.more_context {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: black;
+}
+.more-author {
+  color: gray;
+}
+.more_img {
+  height: 16vh;
+  width: 10vw;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.img_url_more {
+  height: 16vh;
+  width: 10vw;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 960px) {
+  .role {
+    display: none;
+  }
+  .more {
+    display: inline-block;
+    font-size: 25px;
+    background-color: white;
+  }
+  .conatiner_box {
+    height: auto;
+    width: auto;
+    margin: 24px;
+  }
+  .singlePost {
+    display: none;
+  }
+  .more_from_siren {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    background-color: white;
+  }
+  .more_container {
+    width: 100%;
+  }
+  .more_content {
+    margin-right: 20px;
+  }
+  .more_img,
+  .img_url_more {
+    height: 112px;
+    width: 103px;
+    border-radius: 7px;
+  }
+}

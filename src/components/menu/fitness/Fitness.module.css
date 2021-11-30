@@ -1,0 +1,70 @@
+.container {
+  border-radius: 5px;
+  height: 50vh;
+  width: 24vw;
+}
+.item {
+  margin: 10px 25px;
+  border-radius: 5px;
+  height: 23vh;
+  width: 20vw;
+  background-image: url("../../images/snow.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  border-radius: 5px;
+  height: 20vh;
+  width: 18vw;
+  margin-left: 20px;
+}
+.title {
+  text-align: start;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+.context {
+  text-align: start;
+  color: gray;
+  margin-top: 10px;
+}
+.date {
+  text-align: start;
+
+  margin-top: 30px;
+  color: gray;
+}
+.travel {
+  color: black;
+}
+.number {
+  font-size: 50px;
+  color: rgba(201, 199, 199, 0.849);
+  margin-top: 27px;
+  margin-left: 15px;
+}
+.display_flex {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    height: auto;
+    width: 100%;
+  }
+  .item {
+    width: 275px;
+    margin: 10px;
+  }
+  .number {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
+  .title {
+    text-align: start;
+  }
+}

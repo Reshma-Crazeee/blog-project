@@ -1,0 +1,73 @@
+.login_container {
+  border: 0px solid gray;
+  border-radius: 5px;
+  height: 60vh;
+  width: 20vw;
+  margin: 50px;
+  margin-left: 41%;
+}
+.title {
+  font-size: 40px;
+  color: gray;
+  font-style: oblique;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.loginButton {
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: #f90046;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+label {
+  text-align: start;
+  margin-top: 10px;
+}
+.signupButton {
+  cursor: pointer;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+
+  margin-left: 11%;
+}
+.checkboxLogin {
+  margin-right: 6px;
+  margin-top: 14px;
+}
+.align_center {
+  display: inline-block;
+  padding-right: 59%;
+}
+
+.forgotpswd {
+  margin-top: 10px;
+  margin-right: 50%;
+}
+.acc_ {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .login_container {
+    margin-left: 17%;
+    height: 75vh;
+    width: 75vw;
+  }
+}

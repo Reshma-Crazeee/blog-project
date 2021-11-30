@@ -1,0 +1,39 @@
+.container {
+  border: 0px solid blue;
+  border-radius: 15px;
+  margin: 50px;
+  margin-left: 105px;
+  height: 240vh;
+  width: 85vw;
+}
+
+.direction {
+  display: flex;
+}
+
+.role {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+}
+.underline {
+  margin-top: 10px;
+  border: 2px solid orange;
+  width: 10vh;
+  background-color: orange;
+  margin-bottom: 39px;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    margin: 10px;
+    height: auto;
+    width: auto;
+    margin-top: 30px;
+  }
+  .direction {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,120 @@
+.container {
+  border: 0px solid maroon;
+  border-radius: 5px;
+  height: 85vh;
+  width: 85vw;
+  margin: 50px;
+  margin-left: 100px;
+}
+.card {
+  border: 0px solid blue;
+  border-radius: 5px;
+  height: 65vh;
+  width: 30vw;
+  margin: 20px;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.role {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+}
+.underline {
+  margin-top: 10px;
+  border: 2px solid orange;
+  width: 10vh;
+  background-color: orange;
+  margin-bottom: 39px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.items {
+  border: 0px solid pink;
+  border-radius: 5px;
+  margin: 10px;
+  height: 200px;
+  width: 100;
+}
+.img_url {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.content {
+  border: 0px solid red;
+  border-radius: 5px;
+  margin: 20px;
+  height: 32vh;
+  width: 22vw;
+}
+.title {
+  text-align: start;
+  padding-left: 30px;
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+}
+.context {
+  text-align: start;
+  padding-left: 30px;
+  color: gray;
+  margin-top: 5px;
+  overflow: hidden;
+  max-height: 13ch;
+}
+.date {
+  margin-top: 30px;
+  color: gray;
+  padding-right: 95px;
+}
+.travel {
+  color: black;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    margin: 10px;
+    height: auto;
+    width: auto;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin: 0px;
+    height: auto;
+    width: 100%;
+  }
+  .items,
+  .content {
+    margin: 10px;
+    height: auto;
+    width: 97%;
+  }
+  .img_url {
+    margin-top: 40px;
+    height: auto;
+    width: 97%;
+  }
+
+  .title,
+  .context,
+  .date {
+    padding-left: 0;
+    text-align: start;
+  }
+  .context {
+    margin-top: 15px;
+  }
+}

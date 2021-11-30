@@ -1,0 +1,160 @@
+.container {
+  border: 0px solid royalblue;
+  border-radius: 15px;
+  height: 62vh;
+  width: 59vw;
+}
+.image {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  margin: 5px;
+  height: 59vh;
+  width: 57vw;
+  background-image: url("../../../images/irish.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 1px 11px gray;
+}
+
+.list {
+  border-radius: 15px;
+  height: 142vh;
+  margin-top: 40px;
+}
+.top_box {
+  border-radius: 5px;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row {
+  border-radius: 5px;
+  height: 50vh;
+  width: 19vw;
+}
+.col {
+  border-radius: 5px;
+  height: 70vh;
+  width: 19vw;
+}
+.role {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: start;
+}
+.underline {
+  margin-top: 10px;
+  border: 2px solid orange;
+  width: 10vh;
+  background-color: orange;
+  margin-bottom: 39px;
+}
+.content {
+  border-radius: 5px;
+  margin: 20px;
+  height: 20vh;
+  width: 17vw;
+}
+.title {
+  text-align: start;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+}
+.context {
+  text-align: start;
+  color: gray;
+  margin-top: 10px;
+}
+.img {
+  border: 0px solid whitesmoke;
+  border-radius: 6px;
+  margin: 10px;
+  height: 20vh;
+  width: 18vw;
+  background-image: url("../../../images/snowFall.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 1px 11px gray;
+}
+.img:hover {
+  transform: scale(1.02);
+}
+#arrow_left {
+  font-size: 20px;
+  color: white;
+}
+#arrow_right {
+  font-size: 20px;
+  color: white;
+}
+.number {
+  font-size: 50px;
+  color: rgba(201, 199, 199, 0.849);
+  margin-right: 15px;
+}
+.date {
+  text-align: start;
+  margin-top: 30px;
+  color: gray;
+}
+.travel {
+  color: black;
+}
+.display_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.size1 {
+  margin-top: 23%;
+  text-align: center;
+}
+.text1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+.text {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.date1 {
+  color: wheat;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-left: 30px;
+  text-align: center;
+}
+@media screen and (max-width: 960px) {
+  .container {
+    display: none;
+  }
+  .list {
+    margin-top: 0;
+  }
+  .top_box {
+    display: flex;
+    align-items: center;
+  }
+  .row,
+  .content {
+    height: auto;
+    width: 100%;
+  }
+  .img {
+    height: 30vh;
+    width: 90%;
+  }
+  .number {
+    display: none;
+  }
+  .col {
+    height: auto;
+    width: 100%;
+  }
+}

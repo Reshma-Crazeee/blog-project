@@ -1,0 +1,67 @@
+.SignUp_container {
+  height: 68vh;
+  width: 20vw;
+  margin: 50px;
+  margin-left: 41%;
+}
+.title {
+  font-size: 40px;
+  color: gray;
+  font-style: oblique;
+}
+
+.SignUpForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.SignUpInput {
+  padding: 10px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.SignUpButton {
+  margin-top: 50px;
+  cursor: pointer;
+  background-color: #f90046;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+label {
+  text-align: start;
+  margin-top: 10px;
+}
+.login_Button {
+  cursor: pointer;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 7vw;
+  margin-left: 33%;
+}
+
+.acc {
+  margin-top: 10px;
+  margin-right: 0px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+  .SignUp_container {
+    margin-left: 17%;
+    height: 75vh;
+    width: 75vw;
+  }
+  .login_Button {
+    width: 26vw;
+  }
+}
