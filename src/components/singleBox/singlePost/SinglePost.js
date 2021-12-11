@@ -14,9 +14,7 @@ export default function SinglePost() {
         </div>
         <hr className={style.hr__line} />
         <div className={style.singlePost}>
-          <RelatedNews name="Also tagged Reactjs" />
-          <RelatedNews name="Related reads" />
-          <RelatedNews name="Related reads" />
+          <RelatedNews />
         </div>
       </div>
     </>

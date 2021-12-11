@@ -11,14 +11,14 @@ function Fitness(props) {
         <div className={style.item}></div>
         <div className={style.display_flex}>
           <div className={style.content}>
-            <Link to={"/posts/1"}>
+            <Link to={"/posts/43"}>
               <div className={style.title}>
-                Catch waves with <br />
-                an adventure guide
+                Sensex extends gains; ends 157 pts higher
               </div>
             </Link>
             <p className={style.date}>
-              <span className={style.travel}>{category} </span>/ August 21 2017
+              <span className={style.travel}>{category} </span>/ December 01
+              2021
             </p>
           </div>
           <p className={style.number}>1</p>

@@ -3,35 +3,12 @@ import { withRouter } from "react-router";
 import { Link } from "react-router-dom";
 import img from "../../images/irish.jpg";
 import color from "../food/Food.module.css";
+import DataArticles from "../../articles/DataArticles";
 
-function Food(props) {
-  const { category } = props.match.params;
-  const topPostNumber = [
-    {
-      id: 1,
-      url: img,
-      title: " Joshua Tree Overnight Adventure",
-      date: " /  August 21 2017",
-      num: 2,
-    },
-    {
-      id: 2,
-      url: img,
-      title: " Joshua Tree Overnight Adventure",
-      date: " /  August 21 2017",
-      num: 3,
-    },
-    {
-      id: 3,
-      url: img,
-      title: " Joshua Tree Overnight Adventure",
-      date: " /  August 21 2017",
-      num: 4,
-    },
-  ];
+function Food() {
   return (
     <div>
-      {topPostNumber.map(({ id, url, title, date, num }) => (
+      {DataArticles.map(({ id, url, title, date, travel, num }) => (
         <div key={id}>
           <hr className={color.hr} />
 
@@ -45,7 +22,7 @@ function Food(props) {
               </Link>
               <p className={color.date}>
                 {" "}
-                <span className={color.travel}>{category}</span>
+                <span className={color.travel}>{travel}</span>
                 {date}
               </p>
             </div>

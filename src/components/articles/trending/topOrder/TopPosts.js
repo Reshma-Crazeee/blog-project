@@ -7,10 +7,10 @@ export default function TopPosts() {
     <div className={decorate.container}>
       <div className={decorate.image}>
         <div className={decorate.size1}>
-          <Link to={"/posts/1"}>
-            <p className={decorate.text1}>Title of vertical gallery </p>
+          <Link to={"/posts/44"}>
+            <p className={decorate.text1}>Fiji Tour </p>
           </Link>
-          <p className={decorate.date1}>Travel / August 21 2017</p>
+          <p className={decorate.date1}>Travel / October 21 2021</p>
         </div>
       </div>
     </div>

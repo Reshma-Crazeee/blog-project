@@ -8,7 +8,7 @@ export default function List() {
       <div className={elements.img}></div>
       <div className={elements.display_flex}>
         <div className={elements.content}>
-          <Link to={"/posts/1"}>
+          <Link to={"/posts/11"}>
             <div className={elements.title}>
               Dozens of people have been trapped in a remote UK pub for 3 nights
               with an Oasis tribute band after heavy snow

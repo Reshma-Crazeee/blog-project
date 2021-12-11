@@ -22,7 +22,14 @@
   margin: 10px;
   height: 65vh;
   width: 80vw;
-  background-image: url("../images/sale.jpg");
+  /* background-image: url("../images/sale.jpg");
+  background-size: cover;
+  background-position: center; */
+}
+.row_file {
+  height: 486px;
+  width: 887px;
+  border-radius: 8px;
   background-size: cover;
   background-position: center;
 }
@@ -64,7 +71,7 @@
   text-align: start;
 }
 .size1 {
-  margin-top: 30%;
+  margin-top: -202px;
   width: 45vw;
   padding-left: 75px;
 }
@@ -113,19 +120,24 @@
     height: auto;
     width: 100%;
   }
+  .row_file {
+    width: 100%;
+    height: auto;
+  }
   .size1 {
-    margin: 0px;
+    /* margin: 0px; */
     width: auto;
-    margin: 60% 10% 9%;
+    /* margin: 60% 10% 9%; */
     padding-left: 20px;
+    margin-top: -110px;
   }
   .text1 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: start;
   }
 
   .date1 {
-    margin-top: 25%;
+    margin-top: 5px;
     font-size: 15px;
   }
   .row1 {

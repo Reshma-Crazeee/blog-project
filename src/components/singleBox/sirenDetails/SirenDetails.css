@@ -2,6 +2,9 @@
   border: 2px solid transparent;
   border-radius: 5px;
   font-size: 30px;
+  font-weight: 600;
+
+  text-align: start;
 }
 .socialMedia {
   display: flex;
@@ -14,7 +17,14 @@
   height: 90px;
   width: 90px;
   margin-left: 14px;
-  background-image: url("../../images/man.png");
+  /* background-image: url("../../images/man.png"); */
+  /* background-position: center;
+  background-size: cover; */
+}
+.profile_img {
+  height: 73px;
+  width: 75px;
+  margin-top: 5px;
   background-position: center;
   background-size: cover;
 }
@@ -39,12 +49,13 @@
   height: auto;
   width: 200px;
   margin-top: 30px;
-  margin-left: 120px;
+  margin-left: 90px;
   color: gray;
   font-size: 28px;
 }
 .fab {
   margin-left: 20px;
+  color: gray;
 }
 
 /* footer */
@@ -52,7 +63,7 @@
 .footer_end {
   border-radius: 5px;
   background-color: white;
-  height: 39vh;
+  height: 35vh;
   width: 42vw;
 }
 .image_claps {
@@ -92,8 +103,9 @@
   border: 2px solid #ececec;
   background-color: #ececec;
   color: grey;
-  height: 30px;
-  width: 90px;
+  height: auto;
+  width: auto;
+  padding: 8px;
   margin-left: 30px;
 }
 
@@ -101,21 +113,28 @@
 
 .box_AppDetails {
   border-radius: 5px;
-  background-color: white;
+  background-color: red;
   color: black;
-  height: 150vh;
+  height: 104vh;
   width: 42vw;
 }
 .app_image {
   border: 2px solid transparent;
   border-radius: 5px;
-  background-image: url("../../images/react.jpg");
+  /* background-image: url("../../images/react.jpg"); */
+  /* background-size: cover;
+  background-position: center; */
+  height: 35vh;
+  width: 38vw;
+  margin: 30px 30px;
+  /* margin-top: 40px; */
+}
+.alt_img {
   background-size: cover;
   background-position: center;
   height: 35vh;
   width: 38vw;
-  margin: 30px;
-  margin-top: 40px;
+  margin: 30px 0px;
 }
 .app_content {
   border: 2px solid transparent;
@@ -126,11 +145,12 @@
   margin: 22px;
   font-size: 18px;
   text-align: start;
+  margin-top: 55px;
 }
 .para {
   margin-top: 30px;
 }
-.app_img {
+/* .app_img {
   border: 2px solid transparent;
   border-radius: 5px;
   background-image: url("../../images/code.jpg");
@@ -139,7 +159,7 @@
   height: 65vh;
   width: 38vw;
   margin: 22px 40px;
-}
+} */
 
 @media screen and (max-width: 960px) {
   .title_name {
@@ -151,7 +171,7 @@
   .socialApps {
     position: absolute;
     top: -62px;
-    left: -137px;
+    left: -94px;
   }
   .profile {
     position: absolute;
@@ -160,8 +180,8 @@
   .select_box {
     position: absolute;
     top: 16px;
-
-    right: 0px;
+    /* / */
+    right: -20px;
   }
   .box_AppDetails {
     margin-top: 40%;
@@ -173,10 +193,19 @@
     height: 180px;
     width: 355px;
   }
+  .alt_img {
+    width: 90%;
+    margin-right: 37px;
+    /* margin: 30px 0; */
+    /* margin-left: 3px; */
+    /* height: 180px;
+    width: 355px; */
+  }
   .app_content {
     height: auto;
     width: 100%;
-    margin: 22px 0px;
+    margin: 0px 0px;
+    padding: 60px 0px;
   }
   .para {
     margin-top: 20px;
@@ -202,5 +231,9 @@
   }
   .line1 {
     display: none;
+  }
+  .box1 {
+    height: auto;
+    width: auto;
   }
 }

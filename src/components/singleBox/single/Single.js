@@ -9,7 +9,9 @@ export default function Single() {
     <div>
       <div className={set.justify_flex}>
         <div className={set.logo}>
-          <span className={set.vertical}>The</span>Siren
+          <Link to={"/posts/42"} className={set.color}>
+            <span className={set.vertical}>The</span>Siren
+          </Link>
         </div>
         <Link to={"/signup"}>
           <div className={set.started}>
@@ -18,7 +20,6 @@ export default function Single() {
         </Link>
       </div>
       <hr className={set.hr__line} />
-
       <PostContent />
       <SinglePost />
     </div>

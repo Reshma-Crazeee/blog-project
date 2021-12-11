@@ -8,7 +8,7 @@ import fix from "../list/List.module.css";
 export default function ListOrder() {
   const topPostNumber = [
     {
-      id: 1,
+      id: 12,
       url: img,
       title: " Gold smuggler arrested by ED while attending wedding in Pune",
       date: " /  November 29 2021",
@@ -16,19 +16,19 @@ export default function ListOrder() {
       num: 2,
     },
     {
-      id: 2,
+      id: 13,
       url: img1,
-      title: " BJP sweeps Tripura civic polls, TMC gains",
+      title: " BJP sweeps Tripura civic polls,bags 329 of 334 seats; TMC gains",
       date: " /  November 27 2021",
-      travel: " Travel ",
+      travel: " Politics ",
       num: 3,
     },
     {
-      id: 3,
+      id: 14,
       url: img2,
       title: " India fight back, Shreyas shines again",
       date: " /  November 30 2021",
-      travel: " Travel ",
+      travel: " Sports ",
       num: 4,
     },
   ];

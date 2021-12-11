@@ -7,14 +7,14 @@ import design from "./Home.module.css";
 export default function View() {
   const data = [
     {
-      id: 1,
+      id: 2,
       url: img1,
       text: "South Korea to get world’s first floating city by 2025",
       travel: "Travel",
-      date: " / November 21 2021 ",
+      date: " / November 27 2021 ",
     },
     {
-      id: 2,
+      id: 3,
       url: img,
       text: "IRCTC to run special ‘Shirdi Yatra’ tourist train",
       travel: "Travel",

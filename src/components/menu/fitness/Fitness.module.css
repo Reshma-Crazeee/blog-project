@@ -1,6 +1,6 @@
 .container {
   border-radius: 5px;
-  height: 50vh;
+  height: 44vh;
   width: 24vw;
 }
 .item {
@@ -8,7 +8,7 @@
   border-radius: 5px;
   height: 23vh;
   width: 20vw;
-  background-image: url("../../images/snow.jpg");
+  background-image: url("https://images.newindianexpress.com/uploads/user/imagelibrary/2018/9/10/w900X450/sensex_1.jpg");
   background-size: cover;
   background-position: center;
 }

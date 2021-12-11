@@ -13,6 +13,8 @@
 .container_boxs {
   border: 2px solid transparent;
   border-radius: 5px;
+  height: 32vh;
+  width: 40vw;
 }
 
 .role {
@@ -56,7 +58,7 @@
 
   height: 20vh;
   width: 15vw;
-
+  margin-top: 14px;
   margin-right: 25px;
 }
 a {
@@ -68,7 +70,7 @@ a {
 }
 .title {
   text-align: start;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
   color: black;
 }
@@ -77,11 +79,15 @@ a {
   text-align: start;
   color: gray;
   margin-top: 10px;
+
+  /* egfgkgsk */
+  overflow: hidden;
+  max-height: 8ch;
 }
 .date {
   text-align: start;
 
-  margin-top: 30px;
+  margin-top: 10px;
   color: gray;
 }
 .travel {
@@ -101,7 +107,7 @@ a {
     margin-left: 2px;
   }
   .title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .context {
     margin-top: 5px;
@@ -113,5 +119,9 @@ a {
   .date {
     font-size: 14px;
     margin-top: 13px;
+  }
+  /* / */
+  .container_boxs {
+    width: auto;
   }
 }

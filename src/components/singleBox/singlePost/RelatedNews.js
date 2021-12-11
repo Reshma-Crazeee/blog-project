@@ -1,26 +1,35 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import ControlData from "../../main/ControlData";
 import style from "../singlePost/SinglePost.module.css";
 
-export default function RelatedNews(props) {
+export default function RelatedNews() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div>
-      <div className={style.card}>
-        <div className={style.name}>{props.name}</div>
-        <div className={style.items}></div>
-        <div className={style.content}>
-          <Link to={"/posts/1"}>
-            <div className={style.title}>
-              Joshua Tree
-              <br />
-              Overnight Adventure
-            </div>
-          </Link>
-          <div className={style.image}></div>
-          <p className={style.travel}>Dmitry Nozhenko</p>
-          <p className={style.date}>Aug 10 . 4 min read</p>
+      {ControlData.map(({ id, url, name, written, title, today, readtime }) => (
+        <div className={style.card}>
+          <div className={style.name}>{name}</div>
+          <div className={style.items}>
+            <img src={url} alt="" className={style.img_file} />
+          </div>
+          <div className={style.content}>
+            <Link to={"/posts/" + id}>
+              <div className={style.title}>{title}</div>
+            </Link>
+            <div className={style.image}></div>
+            <p className={style.travel}>{written}</p>
+            <p className={style.date}>
+              {today} . {readtime}
+            </p>
+          </div>
         </div>
-      </div>
+      ))}
     </div>
   );
 }

@@ -2,23 +2,31 @@ import React from "react";
 import { Link } from "react-router-dom";
 import design from "./Home.module.css";
 import View from "./View";
+import Data from "../../data/Data";
 
 export default function Home() {
   return (
-    <div className={design.container}>
-      <div className={design.new}>
-        <div className={design.row}>
-          <div className={design.size1}>
-            <Link to={"/posts/1"}>
-              <p className={design.text1}>Find the best deals and save big </p>
-            </Link>
-            <p className={design.date1}>Travel / August 21 2017</p>
+    <>
+      {Data.slice(0, 1).map(({ id, url, title, date, category }) => (
+        <div className={design.container} key={id > 1}>
+          <div className={design.new}>
+            <div className={design.row}>
+              <img src={url} alt="" className={design.row_file}></img>
+              <div className={design.size1}>
+                <Link to={"/posts/" + id}>
+                  <p className={design.text1}>{title}</p>
+                </Link>
+                <p className={design.date1}>
+                  {category} /{date}
+                </p>
+              </div>
+            </div>
+            <div className={design.row1}>
+              <View />
+            </div>
           </div>
         </div>
-        <div className={design.row1}>
-          <View />
-        </div>
-      </div>
-    </div>
+      ))}
+    </>
   );
 }
