@@ -1,6 +1,6 @@
 .hr__line {
   display: inline-block;
-  width: 99vw;
+  width: 96vw;
   height: 2px;
   background-color: gray;
   box-shadow: 2px 2px 3px gray;
@@ -15,7 +15,7 @@
   text-align: start;
   margin-left: 20%;
 }
-.color{
+.color {
   color: black;
 }
 .vertical {

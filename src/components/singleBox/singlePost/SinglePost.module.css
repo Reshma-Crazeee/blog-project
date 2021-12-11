@@ -12,13 +12,13 @@
 }
 .hr__line {
   display: inline-block;
-  width: 99vw;
+  width: 96vw;
 }
 
 .card {
   border: 2px solid whitesmoke;
   border-radius: 5px;
-  height: 65vh;
+  height: 70vh;
   width: 24vw;
   margin: 20px;
   float: left;
